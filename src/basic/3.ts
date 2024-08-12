@@ -6,3 +6,8 @@ let var1: string | number;
 
 console.log(var1 = 'union type');
 console.log(var1 = 12);
+
+let var2: 'enable' | 'disable';
+
+console.log(var2 = 'disable');
+console.log(var2 = true);
